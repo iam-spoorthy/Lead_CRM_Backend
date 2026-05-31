@@ -19,7 +19,7 @@ A RESTful API for a simplified Lead Management CRM built for Superleap's backend
 ### Option 1 — Docker (recommended, zero setup)
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/iam-spoorthy/Lead_CRM_Backend.git
 cd lead-crm
 
 # Copy env file
