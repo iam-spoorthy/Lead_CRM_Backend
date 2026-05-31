@@ -22,9 +22,6 @@ A RESTful API for a simplified Lead Management CRM built for Superleap's backend
 git clone https://github.com/iam-spoorthy/Lead_CRM_Backend.git
 cd lead-crm
 
-# Copy env file
-cp .env.example .env
-
 # Start everything (app + MongoDB + Redis)
 docker compose up --build
 ```
@@ -40,9 +37,6 @@ git clone <your-repo-url>
 cd lead-crm
 
 npm install
-
-cp .env.example .env
-# Edit .env if your MongoDB/Redis URLs are different
 
 npm run dev       # development with auto-reload
 # OR
